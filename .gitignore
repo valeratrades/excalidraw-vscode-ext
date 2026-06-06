@@ -6,3 +6,4 @@ public
 demo
 dist
 .vscode-test-web
+.direnv
