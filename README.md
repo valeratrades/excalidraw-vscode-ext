@@ -1,7 +1,9 @@
-# Excalidraw
+# Excalidraw (valeratrades fork)
 
 This extension integrates Excalidraw into VS Code.
 To use it, create an empty file with a `.excalidraw`, `.excalidraw.json`, `.excalidraw.svg` or `.excalidraw.png` extension and open it in Visual Studio Code.
+
+> This is a personal fork of [`pomdtr.excalidraw-editor`](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor). All credit for the original extension goes to its authors; this fork only layers on personal tweaks. For the upstream extension, install the original.
 
 Try the web version at : <https://excalidraw.com/>
 
@@ -115,4 +117,4 @@ Thank you for considering contributing to the extension :sparkling_heart: !
 
 This extension only goal is to integrate Excalidraw to the Visual Studio Code ecosystem. Users should be able to use both the website and the extension with a minimal amount of friction. As such, we will not accept any contribution that significantly modify the user experience compared to the Excalidraw website.
 
-There are exceptions to this rule (for example, the switch theme icon was deported to Visual Studio Code editor toolbar to allow a better integration). In case of uncertainty, create a thread in the project [Discussion Page](https://github.com/excalidraw/excalidraw-vscode/discussions).
+There are exceptions to this rule (for example, the switch theme icon was deported to Visual Studio Code editor toolbar to allow a better integration). In case of uncertainty, create a thread in the upstream project [Discussion Page](https://github.com/excalidraw/excalidraw-vscode/discussions).

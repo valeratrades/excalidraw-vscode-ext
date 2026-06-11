@@ -1,10 +1,10 @@
 {
     "name": "excalidraw-editor",
     "icon": "assets/logo.png",
-    "displayName": "Excalidraw",
-    "description": "Draw schemas in VS Code using Excalidraw",
+    "displayName": "Excalidraw (valeratrades fork)",
+    "description": "Draw schemas in VS Code using Excalidraw (fork of pomdtr.excalidraw-editor with custom keybinds)",
     "version": "3.9.3",
-    "publisher": "pomdtr",
+    "publisher": "valeratrades",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -19,16 +19,16 @@
         "excalidraw"
     ],
     "author": {
-        "name": "pomdtr",
-        "email": "achille.lacoin@gmail.com",
-        "url": "https://github.com/pomdtr"
+        "name": "valeratrades",
+        "email": "v79166789533@gmail.com",
+        "url": "https://github.com/valeratrades"
     },
     "activationEvents": [
         "workspaceContains:**/*.{excalidraw,excalidraw.svg,excalidraw.png}"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/excalidraw/excalidraw-vscode"
+        "url": "https://github.com/valeratrades/excalidraw-vscode-ext"
     },
     "browser": "./dist/extension.js",
     "contributes": {

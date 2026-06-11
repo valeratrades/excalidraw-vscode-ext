@@ -171,7 +171,7 @@ export default function App(props: {
           libraryItems: props.libraryItems,
           scrollToContent: true,
         }}
-        libraryReturnUrl={"vscode://pomdtr.excalidraw-editor/importLib"}
+        libraryReturnUrl={"vscode://valeratrades.excalidraw-editor/importLib"}
         onChange={(elements, appState, files) =>
           props.onChange(
             elements,

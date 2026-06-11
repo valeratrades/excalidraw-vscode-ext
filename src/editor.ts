@@ -39,7 +39,7 @@ export class ExcalidrawEditorProvider
           type: "excalidrawlib",
           version: 2,
           source:
-            "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+            "https://marketplace.visualstudio.com/items?itemName=valeratrades.excalidraw-editor",
           libraryItems,
         })
       )

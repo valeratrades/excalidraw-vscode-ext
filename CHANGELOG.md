@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.9.3
+
+- republished under the `valeratrades` publisher (extension id is now `valeratrades.excalidraw-editor`); the library-browser return link (`vscode://…/importLib`) targets this id accordingly
+- upgrade `@excalidraw/excalidraw` to 0.18.1
+
 ## 3.9.0
 
 - add support for linking to local files
