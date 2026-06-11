@@ -33,6 +33,10 @@
           gitattributes = v_flakes.files.gitattributes { inherit pkgs; lfs = false; };
         in
         {
+          packages.default = pkgs.callPackage ./nix/extension.nix {
+            vsce = pkgs.vsce;
+          };
+
           devShells.default = with pkgs; mkShell {
             shellHook = (v_flakes.utils.unwrapShellHook github.shellHook) + ''
               #cp -f ${gitattributes} ./.gitattributes # here specifically can't, as I always git-lfs .excalidraw files
